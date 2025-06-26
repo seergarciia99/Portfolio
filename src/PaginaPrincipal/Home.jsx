@@ -35,7 +35,7 @@ function Home() {
       image: "/img/Tactika.png", // Cambia por la ruta de tu imagen
       technologies: ["React", "Laravel", "MySQL","Docker"],
       url: "https://sergiogr25.iesmontenaranco.com/", // Cambia por la URL de tu proyecto
-      description: "Aplicación de gestión futbol para entrenadores"
+      description: "Aplicación de gestión para entrenadores de futbol"
     },
     {
       id: 2,
@@ -45,7 +45,7 @@ function Home() {
       url: "https://tu-proyecto2.com", // Cambia por la URL de tu proyecto
       description: "Dashboard interactivo para visualización de datos y análisis en tiempo real"
     },
-    
+   
   ];
 
   const handleProjectClick = (url) => {
@@ -65,7 +65,7 @@ function Home() {
         playsInline
       >
         <source src="/video/fondoPortfolio.mp4" type="video/mp4" />
-      
+        Tu navegador no soporta el elemento de video.
       </video>
 
       {/* Overlay para dar contraste al texto */}
@@ -228,11 +228,6 @@ function Home() {
                       e.target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjMzc0MTUxIi8+CjxwYXRoIGQ9Ik0xMzUgNzVIMTY1VjEyNUgxMzVWNzVaIiBmaWxsPSIjNkI3Mjc5Ii8+CjxwYXRoIGQ9Ik0xMjAgMTAwTDE1MCA3NUwxODAgMTAwTDE1MCA2MFoiIGZpbGw9IiM2Qjc5Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOUI5Qjk5IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiPkltYWdlbiBubyBkaXNwb25pYmxlPC90ZXh0Pgo8L3N2Zz4K';
                     }}
                   />
-                  <div className="project-overlay">
-                    <svg className="external-link-icon" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/>
-                    </svg>
-                  </div>
                 </div>
                 
                 <div className="project-content">
